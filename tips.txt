@@ -1,0 +1,13 @@
+You may use youtube-dl directly and can download blob media from Streams. Find the first .m3u8 file 
+under network analysis and feed that to youtube-dl. You may need to add a referer, which is the site
+you have the stream from:
+.\youtube-dl --add-header Referer:[url] [.m3u8 media link]
+
+It gets increasingly hard, to inspect network streams in the browser. You have to find different ways to access the network files of a site,
+depending on the source.
+
+Set output name with templates. example:
+./yt-dlp -o "%(title)s-%(timestamp)s.%(ext)s" <url>
+
+You can use %(autonumber) template together with batch mode -a to
+download many urls at the same time and number them ascending.

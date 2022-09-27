@@ -1,0 +1,2 @@
+https://s74.upstreamcdn.co/hls/w47rydgae5b5x2nrozhksavbbiepigz36y5vfivi6nc2x7ssexsf33wifora/master.m3u8
+https://delivery-node-cham.voe-network.net/hls/,6oarnkld3y23cszcr3wm3ibr5whatkqz4s3i3a7wgjjajsg4chnlyvveh66q,.urlset/master.m3u8
